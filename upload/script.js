@@ -32,7 +32,7 @@ allLinks.forEach(function (link) {
 //////////////////
 // STICKY NAVIGATION
 
-const sectionHeroEl = document.querySelector('.section-hero');
+const sectionHeroEl = document.querySelector('.header');
 
 const obs = new IntersectionObserver(
   function (entries) {
